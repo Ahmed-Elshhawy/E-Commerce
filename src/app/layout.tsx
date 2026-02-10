@@ -43,15 +43,14 @@ export default function RootLayout({
         </Providers>
       </body>
     </html>
-
-    // <html lang="en" suppressHydrationWarning>
-    //   <body
-    //     className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-    //   >
-    //     <Navbar />
-    //     <div className="container mx-auto max-w-7xl">{children}</div>
-    //     <Footer />
-    //   </body>
-    // </html>
   );
 }
+// <html lang="en" suppressHydrationWarning>
+//   <body
+//     className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+//   >
+//     <Navbar />
+//     <div className="container mx-auto max-w-7xl">{children}</div>
+//     <Footer />
+//   </body>
+// </html>

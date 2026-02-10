@@ -261,11 +261,11 @@ export default function Cart() {
         </div>
       ) : (
         <Image
-          className="mt-20 mx-auto"
           src={cartImg}
           alt="cart"
           width={400}
           height={400}
+          className="object-cover mt-10 mx-auto"
         />
       )}
     </>
